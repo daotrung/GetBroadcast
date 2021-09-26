@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/tool_bar"
+        />
+
+    <TextView
+
+        android:background="@drawable/corner"
+        android:id="@+id/txt_get1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+         />
+    <TextView
+        android:background="@drawable/corner"
+        android:layout_marginTop="20sp"
+        android:id="@+id/txt_get2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        />
+    <TextView
+        android:background="@drawable/corner"
+        android:layout_marginTop="20sp"
+        android:id="@+id/txt_get3"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        />
+
+</LinearLayout>
